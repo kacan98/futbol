@@ -1,7 +1,7 @@
 import puppeteer, {Page} from 'puppeteer'
 import {createWorker} from 'tesseract.js'
 
-const link = 'https://ticketmastersportuk.queue-it.net/?c=ticketmastersportuk&e=tottenhamhotspur&t=https%3A%2F%2Fwww.eticketing.co.uk%2Ftottenhamhotspur%2F%3Futm_source%3Dthfc%26utm_medium%3Dhome_tx_page%26utm_campaign%3Dticketing_alwayson2425_1_2024_7%26utm_content%3Dherocta%26_gl%3D1%2Atocdly%2A_ga%2AMjU3OTExODMuMTcyMTYzNjM1Mg..%2A_ga_75QKF6HR92%2AMTcyMTYzNjM1MC4xLjEuMTcyMTYzNjM1Mi4wLjAuMA..%2A_gcl_au%2ANDYzMTUxNDk2LjE3MjE2MzYzNTI.&cid=en-GB'
+const link = 'somelink.com'
 const captchaSelector = '.captcha-code'
 
 const tick = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
